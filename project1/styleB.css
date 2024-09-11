@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+.container {
+  white-space: nowrap;
+}
+
+.box {
+  width: 100px;
+  height: 150px;
+  font-family: Tahoma;
+  font-size: 40px;
+  background-color: #eeeff2;
+  border-left: 10px dotted #D0D0FF;
+}
+
+.otherBox {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px;
+  left: 10px;
+  top: 10px;
+}
+
+.lastBox {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+.box:hover {
+  cursor: pointer;
+  background-color: yellow;
+  color: goldenrod;
+}
